@@ -31,6 +31,7 @@ git clone git@github.com:Semen1996/kinopoisk.git
 В директории проекта запустить приложение в режиме разработки:
 
 ```
+cd kinopoisk
 npm install
-npm start
+npm run dev
 ```

@@ -1,0 +1,60 @@
+.film-page {
+  display: flex;
+  justify-content: center;
+}
+
+.film {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.film__img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.film__about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.film__title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+}
+
+.film__text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.film__info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.film__genres {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.film__genre {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}

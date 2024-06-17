@@ -1,0 +1,14 @@
+.favourites-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 25px 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

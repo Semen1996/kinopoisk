@@ -1,0 +1,72 @@
+.filter__btn {
+  background-color: blue;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.filter__btn_grey {
+  background-color: gray;
+}
+
+.filter__btn_red {
+  background-color: red;
+}
+
+.filter__btn_green {
+  background-color: rgb(1, 191, 1);
+}
+
+.filter__btn_rigth {
+  align-self: flex-end;
+}
+
+.filter__list-wrap {
+  position: relative;
+}
+
+.filter__list {
+  min-width: 100%;
+  max-height: 200px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  overflow-y: scroll;
+  visibility: hidden;
+}
+
+.filter__list_active {
+  visibility: visible;
+}
+
+.filter__item {
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter__item:first-child {
+  border-top: none;
+}
+
+.filter__item_active {
+  background-color: rgba(84, 63, 160, 0.2);
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}

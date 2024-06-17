@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.header__title {
+  margin: 0;
+  color: black;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.header__btns {
+  display: flex;
+  gap: 5px;
+}

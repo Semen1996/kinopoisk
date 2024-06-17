@@ -1,0 +1,27 @@
+.btn {
+  background-color: blue;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn_red {
+  background-color: red;
+}
+
+.btn_purple {
+  background-color: purple;
+}
+
+.btn_green {
+  background-color: rgb(21, 194, 21);
+}
+
+.btn_red-transparent {
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+}
